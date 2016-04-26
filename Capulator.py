@@ -256,9 +256,5 @@ class Capculator:
             return False
         
 calc= Capculator()
-calc.add('A','A','A-','A-','A-','B+','A','A+','A','B+','B-')
-calc.SU('Matrix Algebra','B+')
-calc.SU('Calculus For Computing','B')
-calc.SU('CS1020','B')
 print(calc.grades())
 print(calc.SUgrades())
